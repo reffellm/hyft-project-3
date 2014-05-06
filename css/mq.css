@@ -1,0 +1,169 @@
+
+@media all and (max-width: 1100px) {
+
+	h2 {
+		font-size: 48px;
+	}
+
+	ul.nav {
+		margin:40px 30px 40px 0;
+	}
+	.sidebar {
+		width:30%;
+	}
+
+	.event-name h2 {
+		line-height: 40px;
+	}
+
+	/*switch to 2 columns and mailing list underneath */
+
+	.summary-columns .who-col, .summary-columns .news-col {
+		width:47%;
+		float:left;
+	}
+	.summary-columns .news-col {
+		margin:0;
+	}
+
+	.summary-columns .mailing-col {
+		width:100%;
+	}
+
+	/*expanded footer accross content wrapper */
+
+	footer {
+		width:70%;
+		height:200px;
+		text-align: center;
+	}
+	footer ul {
+		padding:0;
+	}
+
+	footer ul, .footer-info {
+		width:100%;
+	}
+
+}
+
+
+@media all and (max-width: 900px) {
+	
+	body {
+		padding-bottom: 0;
+	}
+
+	/*narrowed margins for tablet view */
+
+	ul.nav li {
+		margin:20px 16px 60px 8px;
+	}
+
+	.content-wrapper {
+		width:100%;
+		margin:0;
+	}
+
+	.summary-columns .col {
+		width:100%;
+	}
+
+	.sidebar {
+		width:100%;
+	}
+
+/*removed slider, replaced with full width "login" and "apply" links */
+	.slider {
+		height:60px;
+	}
+
+	.slider ul.slides {
+		display:none;
+		height:100px;
+	}
+
+	.floating-links a {
+		width:60%;
+		text-align: center;
+		display:block;
+		box-shadow: 0 -2px 2px #646261;
+	}
+
+	.floating-links a:first-child {
+		color: black;
+		background:white;
+		left:60%;
+		
+	}
+
+	.floating-links a:first-child:hover {
+		background:#646261;
+		color:white;
+	}
+
+	.floating-links a:nth-child(2):hover {
+		background:white;
+		color:#BA1C22;
+	}
+
+	.instruct-info {
+		padding:2% 10%;
+		margin:1% auto;
+		border-bottom: 3px solid #646261;
+	}
+
+	/*expanded footer full-width for smaller tablets/larger mobile views */
+
+	footer {
+		width:100%;
+	}
+
+	.questions {
+		text-align: center;
+		border-bottom:5px solid #646261;
+	}
+
+	.questions a {
+		width:40%;
+		float:left;
+		margin:5%;
+	}
+
+}
+
+@media all and (max-width: 480px) {
+
+	h2 {
+		font-size: 36px;
+		line-height: 45px;
+	}
+
+	.questions p a {
+		width:100%;
+		margin:5% 0;
+	}
+
+	.floating-links a:first-child {
+		width:70%;
+	}
+
+
+	/*mobile menu display enabling */
+
+	.nav_toggle {
+		display: block;
+
+	}
+
+	.bookmark {
+		display:inline;
+	}
+
+	.nav {
+		display:none;
+	}
+
+
+
+}
